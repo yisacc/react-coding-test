@@ -18,3 +18,10 @@ export interface BeerApiResponse{
     hasNext: boolean;
     pets:Pet[];
 }
+
+export interface Todo {
+  userId: number;
+  id: number;
+  title: string;
+  completed: boolean;
+}

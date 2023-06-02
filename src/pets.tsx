@@ -37,7 +37,7 @@ const Pets = () => {
         Previous
       </button>
       <button
-        disabled={isPreviousData || !data?.hasNext}
+        disabled={!data?.hasNext}
         onClick={() => {
           setPage((old) => (data?.hasNext ? old + 1 : old));
         }}
