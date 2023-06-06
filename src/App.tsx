@@ -6,6 +6,8 @@ import InfiniteScroll from "./infiniteScroll";
 import Palindrome from "./palindrome";
 import Countries from "./countries";
 import FiveTimes from "./fiveClicks";
+import DebounceAndThrottle from "./debounceAndThroattle";
+import Ticker from "./ticker";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -21,10 +23,12 @@ function App() {
       <QueryClientProvider client={queryClient}>
         {/* <Beers />
         <AutoCompleteForm /> */}
-        <InfiniteScroll />
+        {/* <InfiniteScroll /> */}
         {/* <Palindrome /> */}
         {/* <Countries /> */}
         {/* <FiveTimes /> */}
+        {/* <DebounceAndThrottle /> */}
+        {/* <Ticker /> */}
       </QueryClientProvider>
     </div>
   );

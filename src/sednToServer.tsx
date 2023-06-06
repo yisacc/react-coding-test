@@ -1,6 +1,5 @@
 import { useMutation } from "@tanstack/react-query";
 import React from "react";
-// import { useMutation } from 'react-query';
 
 const Form: React.FC = () => {
   const createUser = async (userData: UserData) => {
