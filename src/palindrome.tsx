@@ -4,9 +4,7 @@ const Palindrome = () => {
   const [isPalindrome, setIsPalindrome] = useState("");
   let palindrome: string[] = [];
   const reverseWord = (text: string) => {
-    for (let i = text.length - 1; i > -1; i--) {
-      palindrome.push(text[i]);
-    }
+text.split("").reverse().join("");
   };
   const confirmMatch = (text: string) => {
     if (text === palindrome.join("")) {

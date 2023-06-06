@@ -25,3 +25,10 @@ export interface Todo {
   title: string;
   completed: boolean;
 }
+
+export interface Country {
+  area: number;
+  independent: boolean;
+  name: string;
+  region: string;
+}
